@@ -1,0 +1,51 @@
+.antiqueRecentlyAdded{
+    margin-top: 8.75rem;
+}
+
+.antiqueRecentlyAdded > h1 {
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 40px;
+    color: #2D3134;
+}
+
+.antiqueRecentlyAdded > p{
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 16px;
+    color: #676A6C;
+}
+
+.antiqueRecentlyAdded > div:first-of-type{
+    align-items: center;
+}
+
+.antiqueRecentlyAdded__carouselButtons > *{
+    margin: 0 5px;
+}
+
+.antiqueRecentlyAdded__items{
+    /* height: 5vh; */
+    /* background: red; */
+    border: 1px solid red;
+    margin-top: 3.125rem;
+    /* width: fit-content; */
+}
+
+.antiqueRecentlyAdded__item{
+    /* background: white; */
+    padding: 15px 15px 36px;
+    background: #FFFFFF;
+    box-shadow: 0px 40px 90px rgba(0, 0, 0, 0.06);
+    border-radius: 16px;
+    width: fit-content;
+}
+
+.antiqueRecentlyAdded__item > h4{
+    margin-top: 1.5rem;
+}
+
+.antiqueRecentlyAdded__itemFooter{
+    margin-top: 3.125rem;
+}

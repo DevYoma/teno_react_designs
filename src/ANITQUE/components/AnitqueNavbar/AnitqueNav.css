@@ -1,0 +1,53 @@
+.container{
+    width: 90%;
+    max-width: 1400px;
+    margin: 0 auto;
+    /* border: 1px solid red; */
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+}
+
+.antique__nav{
+    align-items: center;
+    /* border: 1px solid red; */
+    padding-top: 1em;
+}
+
+.antique__nav > p{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #212832;
+}
+
+.antique__nav > p > span{
+    color:#FF7B29 ;
+}
+
+.antique__lists{
+    flex: 0.4;
+    /* background: red; */
+}
+
+.antique__lists > li{
+    list-style-type: none;
+}
+
+.antique__lists > li:hover{
+    cursor: pointer;
+    border-bottom: 2px solid #FF7B29;
+}
+
+/* .antique__button{
+    background: #FF7B29;
+    border-radius: 8px;
+    color: white;
+    border: none;
+    padding: 1em 1.375em;
+    font-size: 0.875rem;
+    letter-spacing: -0.01em;
+    cursor: pointer;
+} */
