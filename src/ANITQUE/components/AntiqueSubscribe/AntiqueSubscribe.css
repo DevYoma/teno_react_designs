@@ -1,0 +1,49 @@
+.antiqueSubscribe{
+    margin-top: 277px;
+    padding: 70px 0 70px 79px;
+    background: #132742;
+    border-radius: 20px;
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.antiqueSubscribe > img{
+    position: absolute;
+    bottom: 8px;
+    right: 120px;
+}
+
+
+.antiqueSubscribe > h1{
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 40px;
+    letter-spacing: -0.02em;
+    color: #FFFFFF;
+    margin-bottom: 1rem;
+}
+
+.antiqueSubscribe > div:first-of-type > p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.88);
+}
+
+.antiqueSubscribe > div:first-of-type{
+    margin-bottom: 45px;
+}
+
+.antiqueSubscribe__search > input{
+    background: #FFFFFF;
+    border-radius: 12px;
+    padding: 24px 257px 24px 26px;
+    /* border: none; */
+    outline: none;
+}
+
+.box{
+    width: 40px;
+    height: 40px;
+    border: 1px solid orange;
+}
