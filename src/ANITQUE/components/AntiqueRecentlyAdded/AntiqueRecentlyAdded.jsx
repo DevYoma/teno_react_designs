@@ -3,9 +3,66 @@ import AntiqueCarouselButton from '../../miniComponents/AntiqueCarouselButton/An
 import './AntiqueRecentlyAdded.css';
 import LeftCarousel from '../../assets/LeftCarousel.png'
 import RightCarousel from '../../assets/RightCarousel.png'
+import AntiqueRecentlyAddedItem from '../../miniComponents/AntiqueRecentlyAddedItem/AntiqueRecentlyAddedItem';
 import RAItem1 from '../../assets/RAItem1.png';
+import Cart from '../../assets/cart.png';
+import Horn from '../../assets/horn.png';
+
 
 const AntiqueRecentlyAdded = () => {
+
+    const data = [
+        {
+            image: RAItem1,
+            heading: "Any bed yet for travelling",
+            year: 1934,
+            category: "weapons",
+            price: 834.50,
+            daysRemaining: 12,
+            bids: 14
+        },
+        {
+            image: Cart,
+            heading: "Indulgence unpleasing",
+            year: 1019,
+            category: "Tools",
+            price: 769.99,
+            daysRemaining: 12,
+            bids: 34
+        },
+        {
+            image: Horn,
+            heading: "Assistance",
+            year: 950,
+            category: "Tools",
+            price: 939.80,
+            daysRemaining: 12,
+            bids: 154
+        },
+        {
+            image: RAItem1,
+            heading: "Assistance",
+            year: 950,
+            category: "Tools",
+            price: 939.80,
+            daysRemaining: 12,
+            bids: 154
+        },
+        {
+            image: Cart,
+            heading: "Indulgence unpleasing",
+            year: 1019,
+            category: "Tools",
+            price: 769.99,
+            daysRemaining: 12,
+            bids: 34
+        }
+    ]
+
+    const mappedData = data.map(item => (
+        <AntiqueRecentlyAddedItem item={item}/>
+    ))
+
     return ( 
         <div className="antiqueRecentlyAdded container">
             <h1>Recently Added</h1>
@@ -19,27 +76,14 @@ const AntiqueRecentlyAdded = () => {
             </div>
 
             <div className="antiqueRecentlyAdded__items">
-                <div className="antiqueRecentlyAdded__item">
-                    <img src={RAItem1} alt="" />
+           
+                {/* <AntiqueRecentlyAddedItem  />
+                <AntiqueRecentlyAddedItem />
+                <AntiqueRecentlyAddedItem />
+                <AntiqueRecentlyAddedItem /> */}
+                {mappedData}
+                
 
-                    <h4>Yet bed any for travelling</h4>
-                    <span className="year">1192</span>
-                    <span> | </span>
-                    <span className="category">Weapons</span>
-
-                    <div className="antiqueRecentlyAdded__itemMain row">
-                        <h3>$895.50</h3>
-
-                        <button>
-                            View Details
-                        </button>
-                    </div>
-
-                    <div className="antiqueRecentlyAdded__itemFooter row">
-                        <p>14 bids so far</p>
-                        <p>Bidding Closes in 12 days</p>
-                    </div>
-                </div>
             </div>
         </div>
      );

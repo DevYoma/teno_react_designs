@@ -4,6 +4,7 @@ import AnitqueNav from '../components/AnitqueNavbar/AnitqueNav'
 import AntiqueMain from '../components/AntiqueMain/AntiqueMain';
 import AntiqueSearchBar from '../components/AntiqueSearchBar/AntiqueSearchBar';
 import AntiqueRecentlyAdded from '../components/AntiqueRecentlyAdded/AntiqueRecentlyAdded';
+import AntiqueTopCategory from '../components/AntiqueTopCategory/AntiqueTopCategory';
 
 const AnitquePage = () => {
     return ( 
@@ -12,6 +13,7 @@ const AnitquePage = () => {
             <AntiqueMain />
             <AntiqueSearchBar />
             <AntiqueRecentlyAdded />
+            <AntiqueTopCategory />
         </div>
      );
 }
