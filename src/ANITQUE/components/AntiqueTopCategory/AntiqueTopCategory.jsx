@@ -3,6 +3,7 @@ import AntiqueCarouselButton from '../../miniComponents/AntiqueCarouselButton/An
 import './AntiqueTopCategory.css';
 import LeftCarousel from '../../assets/LeftCarousel.png'
 import RightCarousel from '../../assets/RightCarousel.png'
+import Preview from '../../assets/preview.png';
 
 const AntiqueTopCategory = () => {
     return ( 
@@ -17,14 +18,43 @@ const AntiqueTopCategory = () => {
                 </div>
             </div>
 
-            <div className="antiqueTopCategory__grid">
-                <div>1</div>
-                <div>2</div>
-                <div>3</div>
-                <div>4</div>
-                <div>5</div>
-                <div>6</div>
-            </div>
+            {/* <div className="antiqueTopCategory__grid">
+                <div className='antiqueTopCategory__item one'>
+                    <div className="number">122</div>
+                    <p className="name">Weapons</p>
+                    <p className="description">Worefall</p>
+                </div>
+
+                <div className='antiqueTopCategory__item two'>
+                    <div className="number">122</div>
+                    <p className="name">Weapons</p>
+                    <p className="description">Worefall</p>
+                </div>
+
+                <div className='antiqueTopCategory__item three'>
+                    <div className="number">122</div>
+                    <p className="name">Weapons</p>
+                    <p className="description">Worefall</p>
+                </div>
+
+                <div className='antiqueTopCategory__item four'>
+                    <div className="number">122</div>
+                    <p className="name">Weapons</p>
+                    <p className="description">Worefall</p>
+                </div>
+
+                <div className='antiqueTopCategory__item five'>
+                    <div className="number">122</div>
+                    <p className="name">Weapons</p>
+                    <p className="description">Worefall</p>
+                </div>
+
+                <div className='antiqueTopCategory__item six'>
+                    <div className="number">122</div>
+                    <p className="name">Weapons</p>
+                    <p className="description">Worefall</p>
+                </div>
+            </div> */}
         </div>
      );
 }
