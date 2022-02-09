@@ -1,0 +1,50 @@
+.antiqueTopCategory{
+    /* height: 5vh; */
+    margin-top: 200px;
+    /* background: red; */
+    border: 1px solid red;
+    margin-top: 8.75rem;
+}
+
+.antiqueTopCategory > div{
+    align-items: center;
+    /* background: green; */
+    margin-bottom: 3.125rem;
+}
+
+.antiqueTopCategory > h1{
+    /* color: red; */
+    margin-bottom: 1.5rem;
+}
+
+.antiqueTopCategory__carouselButtons > *{
+    margin: 0 5px;
+}
+
+.antiqueTopCategory__grid{
+    border: 1px solid red;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* grid-template-rows: minmax(150px, auto); */
+    gap: 20px;
+}
+
+.antiqueTopCategory__grid > div{
+    background: red;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.antiqueTopCategory__grid > div:nth-child(2n){
+    background: green;
+}
+
+.antiqueTopCategory__grid > div:nth-child(2){
+    /* grid-row-start: 1;
+    grid-row-end: 3; */
+    grid-row: 2/6;
+    border: 1px solid purple;
+}
