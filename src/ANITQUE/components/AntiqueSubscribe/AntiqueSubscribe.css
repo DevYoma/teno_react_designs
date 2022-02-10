@@ -34,16 +34,31 @@
     margin-bottom: 45px;
 }
 
-.antiqueSubscribe__search > input{
-    background: #FFFFFF;
+
+.antiqueSubscribe__search{
+    background: white;
+    width: 450px;
     border-radius: 12px;
-    padding: 24px 257px 24px 26px;
-    /* border: none; */
-    outline: none;
+    /* border: 3px solid purple; */
+    
 }
 
-.box{
-    width: 40px;
-    height: 40px;
-    border: 1px solid orange;
+.antiqueSubscribe__search > input{
+    padding: 24px 0;
+    padding-left: 24px;
+    outline: none;
+    /* width: 90%; */
+    flex: 1;
+} 
+
+
+.antiqueSubscribe__search > .box{
+    /* width: 100%; */
+    width: 60px;
+    height: auto;
+    background: #F66F4D;
+    display: flex;    
+    justify-content: center;
+    align-items: center;
+    border: none;
 }
