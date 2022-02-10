@@ -1,6 +1,7 @@
 import React from 'react';
 import './AntiqueSubscribe.css';
 import SubscribeImage from '../../assets/subscribeImage.png'
+import InputPicture from '../../assets/input.png'
 
 const AntiqueSubscribe = () => {
     return ( 
@@ -12,9 +13,11 @@ const AntiqueSubscribe = () => {
                     <p>every week</p>
                 </div>
 
-                <div className="antiqueSubscribe__search">
+                <div className="antiqueSubscribe__search row">
                     <input type="text" placeholder='Enter your email address'/>
-                    <div className="box"></div>
+                    <div className="box">
+                        <img src={InputPicture} alt="InputPic" />
+                    </div>
                 </div>
            <img src={SubscribeImage} alt="Image" />
         </div>

@@ -7,6 +7,7 @@ import AntiqueRecentlyAdded from '../components/AntiqueRecentlyAdded/AntiqueRece
 import AntiqueTopCategory from '../components/AntiqueTopCategory/AntiqueTopCategory';
 import AntiqueFeedback from '../components/AntiqueFeedback/AntiqueFeedback';
 import AntiqueSubscribe from '../components/AntiqueSubscribe/AntiqueSubscribe';
+import AntiqueFooter from '../components/AntiqueFooter/AntiqueFooter';
 
 const AnitquePage = () => {
     return ( 
@@ -18,6 +19,7 @@ const AnitquePage = () => {
             <AntiqueTopCategory />
             <AntiqueFeedback />
             <AntiqueSubscribe />
+            <AntiqueFooter />
         </div>
      );
 }
