@@ -18,43 +18,7 @@ const AntiqueTopCategory = () => {
                 </div>
             </div>
 
-            {/* <div className="antiqueTopCategory__grid">
-                <div className='antiqueTopCategory__item one'>
-                    <div className="number">122</div>
-                    <p className="name">Weapons</p>
-                    <p className="description">Worefall</p>
-                </div>
-
-                <div className='antiqueTopCategory__item two'>
-                    <div className="number">122</div>
-                    <p className="name">Weapons</p>
-                    <p className="description">Worefall</p>
-                </div>
-
-                <div className='antiqueTopCategory__item three'>
-                    <div className="number">122</div>
-                    <p className="name">Weapons</p>
-                    <p className="description">Worefall</p>
-                </div>
-
-                <div className='antiqueTopCategory__item four'>
-                    <div className="number">122</div>
-                    <p className="name">Weapons</p>
-                    <p className="description">Worefall</p>
-                </div>
-
-                <div className='antiqueTopCategory__item five'>
-                    <div className="number">122</div>
-                    <p className="name">Weapons</p>
-                    <p className="description">Worefall</p>
-                </div>
-
-                <div className='antiqueTopCategory__item six'>
-                    <div className="number">122</div>
-                    <p className="name">Weapons</p>
-                    <p className="description">Worefall</p>
-                </div>
-            </div> */}
+            
         </div>
      );
 }
