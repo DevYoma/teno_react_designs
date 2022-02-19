@@ -185,16 +185,108 @@
     display: flex;
     flex-direction: column;
     gap: 30px;
-    border: 3px solid yellowgreen;
+    /* border: 3px solid yellowgreen; */
 }
 
 .antiqueTopCategory__flexContainer > div:nth-child(3) > div:first-of-type {
     /* background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(36, 36, 40, 0.59) 100%); */
-    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(36, 36, 40, 0.59) 100%);
     border-radius: 20px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
+    position: relative;
 }
-    
+
+.third__imgNum,
+.third__imgDetails{
+    position: absolute;
+    left: 24px;
+}
+
+.third__imgNum{
+    top: 22px;
+}
+
+.third__imgDetails{
+    bottom: 24px;
+}
+
 .Third__grid{
     display: flex;
+}
+
+.Third__grid > div:first-of-type,
+.Third__grid > div:last-child{
+    position: relative;
+}
+
+.Third__grid > div:first-child > .img__num,
+.Third__grid > div:first-child > .img__details{
+    position: absolute;
+    left: 24px;
+}
+
+.Third__grid > div:first-child > .img__num{
+    top: 22px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 14px;
+    padding: 7px 11px;
+    color:#FF7B29 ;
+    background: white;
+}
+
+.Third__grid > div:first-child > .img__details{
+    bottom: 24px;
+}
+
+.Third__grid > div:first-child > .img__details > p{
+    color: white;
+    opacity: 0.9;
+}
+
+.Third__grid > div:last-child {
+    /* border: 1px solid red; */
+}
+
+.Third__grid > div:last-child > div:first-of-type {
+    position: absolute;
+    top: 0;
+    top: 22px;
+    left: 24px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 14px;
+    padding: 7px 11px;
+    color:#FF7B29 ;
+    background: white;
+}
+
+.Third__grid > div:last-child > div:last-of-type{
+    /* border: 1px solid red; */
+    position: absolute;
+    left: 24px;
+    bottom: 24px;
+}
+
+.Third__grid > div:last-child > div:last-of-type > h2{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 20px;
+    letter-spacing: -0.01em;
+    color: #FFFFFF;
+    text-shadow: 0px 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.Third__grid > div:last-child > div:last-of-type > p{
+    margin-top: 8px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    opacity: 0.9;
+}
+
+@media screen and (max-width: 1250px) {
+   .Third__grid{
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+   }
 }
