@@ -62,3 +62,10 @@
     align-items: center;
     border: none;
 }
+
+
+@media screen and (max-width: 1000px) {
+    .antiqueSubscribe__img {
+        display: none;
+    }
+}

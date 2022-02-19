@@ -19,7 +19,7 @@ const AntiqueSubscribe = () => {
                         <img src={InputPicture} alt="InputPic" />
                     </div>
                 </div>
-           <img src={SubscribeImage} alt="Image" />
+           <img src={SubscribeImage} alt="Image"  className='antiqueSubscribe__img'/>
         </div>
      );
 }

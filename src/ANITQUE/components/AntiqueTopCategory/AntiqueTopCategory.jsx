@@ -66,15 +66,41 @@ const AntiqueTopCategory = () => {
                 <div className="">
                     <div>
                         <img src={Chair} alt="Chair" />
+
+                        {/* <div className="third__imgNum">
+                            122
+                        </div>
+
+                        <div className="third__imgDetails"> 
+                            <h2>Keep</h2>
+                            <p>Worefall</p>
+                        </div> */}
                     </div>
 
                     <div className="Third__grid row">
                         <div>
                             <img src={Watch} alt="Watch" />
+
+                            <div className="img__num">
+                                122
+                            </div>
+
+                            <div className="img__details"> 
+                                <h2>Keep</h2>
+                                <p>Worefall</p>
+                            </div>
+                                
                         </div>
 
                         <div>
                             <img src={Furniture} alt="furniture" />
+
+                            <div>122</div>
+
+                            <div className=""> 
+                                <h2>Keep</h2>
+                                <p>Worefall</p>
+                            </div>
                         </div>
                     </div>
                 </div>                
