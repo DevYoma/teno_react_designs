@@ -10,10 +10,14 @@
     justify-content: space-between;
 }
 
+/* The above styles are global.. dont touch */
+
 .antique__nav{
+    display: flex;
+    justify-content: space-between;
     align-items: center;
+    margin-top: 10px;
     /* border: 1px solid red; */
-    padding-top: 1em;
 }
 
 .antique__nav > p{
@@ -28,8 +32,16 @@
 }
 
 .antique__lists{
-    flex: 0.4;
-    /* background: red; */
+    display: flex;
+}
+
+.antique__lists > li{
+    margin-right: 100px;
+}
+
+
+.antique__lists >li:last-child{
+    margin-right: 0px;
 }
 
 .antique__lists > li{
@@ -41,13 +53,32 @@
     border-bottom: 2px solid #FF7B29;
 }
 
-/* .antique__button{
-    background: #FF7B29;
-    border-radius: 8px;
-    color: white;
-    border: none;
-    padding: 1em 1.375em;
-    font-size: 0.875rem;
-    letter-spacing: -0.01em;
-    cursor: pointer;
-} */
+@media screen and (max-width:1200px) {
+    .antique__lists > li{
+        margin-right: 50px;
+    }
+    
+}
+
+@media screen and (max-width:900px) {
+    .antique__nav > div{
+        /* flex-direction: column; */
+        display: none;
+    }
+
+    .antique__nav > p{
+    }
+
+    .antique__lists > li{
+        /* flex-direction: ; */
+        margin-right: 25px;
+    }
+
+}
+
+@media screen and (max-width: 500px) {
+    .antique__lists{
+        display: none;
+        /* flex-direction: column; */
+    }
+}
