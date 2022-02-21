@@ -4,10 +4,10 @@ import './AnitqueNav.css';
 
 const AnitqueNav = () => {
     return ( 
-        <nav className="antique__nav container row">
+        <nav className="antique__nav container">
                 <p>Siboria<span>.</span></p>
 
-                <ul className='antique__lists row'>
+                <ul className='antique__lists'>
                     <li>Home</li>
                     <li>Collections</li>
                     <li>How We Collect</li>
@@ -18,7 +18,9 @@ const AnitqueNav = () => {
                 {/* <button className="antique__button">
                     Our Collections
                 </button> */}
-                <AntiqueOrangeButton name="Our Collections"/>
+                <div>
+                    <AntiqueOrangeButton name="Our Collections"/>
+                </div>
         </nav>
      );
 }
