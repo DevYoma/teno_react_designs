@@ -7,6 +7,12 @@
     margin-bottom: 30px;
 }
 
+@media screen and (max-width: 500px) {
+    .antiqueSubscribe{
+        padding-left: 20px;
+    }
+}
+
 .antiqueSubscribe > img{
     position: absolute;
     bottom: 8px;
@@ -37,10 +43,18 @@
 
 .antiqueSubscribe__search{
     background: white;
-    width: 450px;
+    max-width: 450px;
+    /* width: 85%; */
     border-radius: 12px;
     /* border: 3px solid purple; */
+    /* overflow: hidden; */
     
+}
+
+@media screen and (max-width: 500px) {
+    .antiqueSubscribe__search{
+        width: 80%;
+    }
 }
 
 .antiqueSubscribe__search > input{
@@ -48,7 +62,7 @@
     padding-left: 24px;
     outline: none;
     width: 90%;
-    flex: 1;
+    /* flex: 1; */
 } 
 
 

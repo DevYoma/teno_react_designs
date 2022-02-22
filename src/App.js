@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import AnitquePage from './ANITQUE/pages/AnitquePage';
 
 function App() {
@@ -16,7 +16,10 @@ function App() {
              
               <Route path="/">
                 <h1>Welcome to this page</h1>
+                <Link to="/antique">Antique Page Design</Link>
+                Built with Love 💖 by Yoma
               </Route>
+              
           </Switch>
         </Router>
       </div>
