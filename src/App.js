@@ -17,6 +17,7 @@ function App() {
               <Route path="/">
                 <h1>Welcome to this page</h1>
                 <Link to="/antique">Antique Page Design</Link>
+                Built with Love 💖 by Yoma
               </Route>
               
           </Switch>
