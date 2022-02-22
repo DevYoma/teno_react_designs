@@ -77,8 +77,17 @@
 }
 
 @media screen and (max-width: 500px) {
-    .antique__lists{
-        display: none;
-        /* flex-direction: column; */
+
+    .antique__nav{
+        flex-direction: column;
     }
+
+    .antique__nav > ul > li{
+        font-size: 14px;
+    }
+
+    .antique__lists{
+        /* display: none; */
+    }
+
 }
