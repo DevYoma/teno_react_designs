@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import AnitquePage from './ANITQUE/pages/AnitquePage';
+import NatashaMain from './NATASHA/pages/NatashaMain'
 
 function App() {
   return (
@@ -12,6 +13,10 @@ function App() {
           <Switch>
               <Route  path="/antique" exact>
                 <AnitquePage />
+              </Route>
+
+              <Route path='/natasha'>
+                <NatashaMain />
               </Route>
              
               <Route path="/">
