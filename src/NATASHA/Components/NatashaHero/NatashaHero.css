@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+
+.natashaHero{
+    /* border: 1px solid red; */
+    margin-top: 100px;
+    display: flex;
+    overflow-x: hidden;
+}
+
+.natashaHero > div{
+    width: 100%;
+}
+
+.natashaHero__leftSection{
+    /* border: 3px solid purple; */
+}
+
+.natashaHero__rightSection{
+    position: relative;
+    /* border: 1px solid blue; */
+    margin-left: 150px;
+    padding-left: 100px;
+}
+
+/* RIGHT SECTION */
+.natashaHero__rightSection{
+  
+}
+
+.rightSection__absolute{
+    position: absolute;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.rightSection__absolute > p{
+    transform-origin: 0 0;
+    transform: rotate(90deg);
+    margin-bottom: 280px;
+}
+
+.rightSection__absolute > .rightSection__blueLine{
+    transform-origin: 0 0;
+    transform: rotate(90deg);
+    background:  #69C8E1;
+    border: 3px solid #69C8E1;
+    border-radius: 5px;
+}
+
+.natashaHero__rightSection > h1{
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 63px;
+    color: #000000;
+}
+
+.natashaHero__rightSectionParagraphDiv{
+    /* border: 1px solid red; */
+    margin-top: 1.875rem;
+    width: 406px;
+}
+
+.natashaHero__rightSectionParagraphDiv > p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 20px;
+    color: #2A2A2A;
+}
+
+.natashaHero__rightSectionParagraphDiv > p:nth-child(2){
+    margin-top: 20px;
+}
+
+.natashaHero__rightSection > button{
+    margin-top: 3.75rem; /* 60px */
+    margin-bottom: 4.0625rem; /* 65px */
+    padding: 15px 34px 20px 24px;
+    background: white;
+    border: 1px solid #C4C4C4;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    color: #2A2A2A;
+    cursor: pointer;
+}
+
+.natashaHero__latestWork > h2{
+    font-family: 'DM Sans', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 63px;
+    color: #000000;
+    margin-bottom:1.875rem ; /*30px */
+}
+
+.natashaHero__latestWorkRow{
+    display: flex;
+    overflow-x: scroll;
+    background: red;
+}
+
+.natashaHero__latestWorkRow > img{
+    margin-right: 20px;
+}

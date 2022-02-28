@@ -1,16 +1,4 @@
-.container{
-    width: 90%;
-    max-width: 1400px;
-    margin: 0 auto;
-    /* border: 1px solid red; */
-}
-
-.row{
-    display: flex;
-    justify-content: space-between;
-}
-
-/* The above styles are global.. dont touch */
+/* GLOBAL STYLES ARE IN THE APP.CSS FILE  => .row, .container*/
 
 .antique__nav{
     display: flex;

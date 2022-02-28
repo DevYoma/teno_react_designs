@@ -1,9 +1,11 @@
 import React from 'react';
 import './NatashaNav.css';
+// import TwitterIcon from '@mui/icons-material/Twitter';
+import { FaBeer } from 'react-icons/fa';
 
 const NatashaNav = () => {
     return ( 
-        <div className="natashaNav">
+        <div className="natashaNav container">
             <div className="natashaNav__name">
                 natasha.
             </div>
@@ -16,7 +18,13 @@ const NatashaNav = () => {
                 <li>contact me</li>
             </ul>
 
-            <div>
+            <div className='natashaNav__icons'>
+                {/* <TwitterIcon /> */}
+                <FaBeer />
+                <FaBeer />
+                <FaBeer />
+                <FaBeer />
+                <FaBeer />
                 
             </div>
         </div>
