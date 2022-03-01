@@ -7,7 +7,8 @@ const NatashaNav = () => {
     return ( 
         <div className="natashaNav container">
             <div className="natashaNav__name">
-                natasha.
+                {/* natasha. */}
+                yoma
             </div>
 
             <ul className="natashaNav__middle">
