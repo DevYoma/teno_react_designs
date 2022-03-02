@@ -47,14 +47,17 @@ const NatashaHero = () => {
                 <img src={OpaqueImage} alt="Opaque stuff" />
             </div> */}
             <div className="natashaHero__leftSection">
+                <span>
+                    <p>my process</p>
+                    <p>client reviews </p>
+                    <p>download cv</p>
+                </span>
                 <img src={NatashaHeroImage} alt="Hero Image" />
             </div>
 
             <div className="natashaHero__middleSection">
                 <p>missed advice my it no sister</p> <br />
-                {/* <div> */}
                     <hr />
-                {/* </div> */}
             </div>
 
             <div className="natashaHero__rightSection">
