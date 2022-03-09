@@ -19,7 +19,7 @@ const NatashaNav = () => {
             </div>
 
             <ul className="natashaNav__middle">
-                <li onClick={() => setClick(!click)}>portfolio</li>
+                <li id="natashaNav1" onClick={() => setClick(!click)}>portfolio</li>
                 <li onClick={() => setClick(!click)}>about me</li>
                 <li onClick={() => setClick(!click)}>my blog</li>
                 <li onClick={() => setClick(!click)}>reviews</li>
