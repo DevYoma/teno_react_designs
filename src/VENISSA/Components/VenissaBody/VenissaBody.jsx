@@ -9,7 +9,6 @@ const VenissaBody = () => {
         <div className="venissaBody">
             <VenissaNav />
             <VenissaHero />
-            <VenissaFooter />
         </div>
      );
 }

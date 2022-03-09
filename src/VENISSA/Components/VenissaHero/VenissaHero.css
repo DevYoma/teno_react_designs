@@ -8,7 +8,7 @@
 .venissaHero__left{
     flex: 0.7;
     /* border: 1px solid red; */
-    padding-top: 200px;
+    padding-top: 150px;
 }
 
 .venissaHero__left > div > p{
@@ -67,5 +67,6 @@
 .venissaHero__right{
     flex: 0.3;
     /* border: 1px solid purple; */
+    /* margin-bottom: 245px; */
 }
 
