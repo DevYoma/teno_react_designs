@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import AnitquePage from './ANITQUE/pages/AnitquePage';
 import NatashaPage from './NATASHA/pages/NatashaPage'
 import VenissaPage from './VENISSA/Pages/VenissaPage'
+import KamiliaPage from './KAMILIA/Pages/KamiliaPage'
 // import TwitterIcon from '@mui/icons-material/Twitter';
 
 function App() {
@@ -24,6 +25,10 @@ function App() {
               <Route path="/venissa"> 
                 <VenissaPage />
               </Route>
+
+              <Route path='/kamilia'>
+                <KamiliaPage />
+              </Route>
             
               <Route path="/">
                 <h1>Welcome to this page</h1>
@@ -32,6 +37,9 @@ function App() {
                 <Link to="/natasha">Natasha Page Design</Link><br />
                 <Link to="/venissa"> 
                   Venissa Page Design
+                </Link> <br />
+                <Link to='/kamilia'>
+                  Kamilia Page Design
                 </Link>
 
                 {/* <TwitterLink /> */}
