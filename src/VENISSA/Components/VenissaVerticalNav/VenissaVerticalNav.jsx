@@ -1,7 +1,6 @@
 import React from 'react';
 import './VenissaVerticalNav.css';
 import VerticalNavLogo from '../../assets/VerticalLogo.png';
-import { FaBeer } from 'react-icons/fa';
 import {BsTwitter} from 'react-icons/bs';
 import { BsLinkedin } from 'react-icons/bs';
 import { BsVimeo } from 'react-icons/bs';
