@@ -56,6 +56,11 @@ const KamiliaHero = () => {
             </div>
 
             <div className="kamiliaHero__right">
+                <span>
+                    <p>my process</p>
+                    <p>clients review</p>
+                    <p>download cv</p>
+                </span>
                 <img src={KamiliaHeroImg} alt="KamiliaImg" style={{height:"880px"}}/>
             </div>
 
