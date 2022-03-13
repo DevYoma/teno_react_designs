@@ -1,0 +1,44 @@
+.malikoVerticalNav{
+    /* background: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 45px 45px 0 31.27px;
+    border-right: 1px solid black;
+    height: 100vh;
+    width: 170px;
+    position: relative;
+}
+
+
+.malikoVerticalNav > h3{
+    /* margin-bottom: 78.52px; */
+}
+
+.malikoVerticalNav__items{
+    position: absolute;
+    top: 150px;
+    display: flex;
+    flex-direction: column-reverse;
+    left: 0;
+    /* border: 1px solid red; */
+}
+
+
+.malikoVerticalNav__items > p{
+    transform: rotate(-90deg);
+    margin-bottom: 64px;
+}
+
+.malikoVerticalNav__footer{
+    position: absolute;
+    display: flex;
+    flex-direction: column-reverse;
+    bottom: 40px;
+}
+
+.malikoVerticalNav__footer > p{
+    transform: rotate(-90deg);
+}
+
+
