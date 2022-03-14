@@ -1,12 +1,14 @@
 import React from 'react';
 import './MalikoPage.css';
 import MalikoVerticalNav from '../Components/MalikoVerticalNav/MalikoVerticalNav'
+import MalikoBody from '../Components/MalikoBody/MalikoBody'
 
 const MalikoPage = () => {
     return ( 
         <div className="malikoPage">
-            {/* <h3>This is the maliko page</h3> */}
             <MalikoVerticalNav />
+
+            <MalikoBody />
         </div>
      );
 }

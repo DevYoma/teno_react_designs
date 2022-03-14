@@ -1,10 +1,12 @@
 import React from 'react';
 import './MalikoVerticalNav.css';
+import MalikoImg from '../../assets/malikoImg.png'
 
 const MalikoVerticalNav = () => {
     return ( 
         <div className="malikoVerticalNav">
-            <h3>maliko</h3>
+            {/* <h3>maliko</h3> */}
+            <img src={MalikoImg} alt="maliko" />
 
             <div className='malikoVerticalNav__items'>
                 <p>materials</p>
