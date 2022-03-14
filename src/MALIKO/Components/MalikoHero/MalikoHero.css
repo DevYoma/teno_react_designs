@@ -9,6 +9,7 @@
 }
 
 .malikoHero__left{
+    padding-top: 100px;
     flex: .5;
     /* border: 1px solid red; */
 }
@@ -54,6 +55,7 @@
     line-height: 26px;
     letter-spacing: -0.05em;
     color: #505050;
+    margin-bottom: 40px;
 }
 
 .malikoHero__right{
