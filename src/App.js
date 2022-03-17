@@ -7,6 +7,7 @@ import VenissaPage from './VENISSA/Pages/VenissaPage'
 import KamiliaPage from './KAMILIA/Pages/KamiliaPage'
 import MalikoPage from './MALIKO/pages/MalikoPage';
 import MikeyPage from './MICKEY/pages/MikeyPage'
+import MatheldaPage from './MATHELDA/Pages/MatheldaPage';
 // import TwitterIcon from '@mui/icons-material/Twitter';
 
 function App() {
@@ -39,6 +40,10 @@ function App() {
               <Route path="/mikey">
                 <MikeyPage />
               </Route>
+
+              <Route path='/mathelda'>
+                <MatheldaPage />
+              </Route>
             
               <Route path="/">
                 <h1>Welcome to this page</h1>
@@ -56,6 +61,9 @@ function App() {
                 </Link> <br />
                 <Link to="/mikey">  
                   Mikey Page Design
+                </Link> <br />
+                <Link to='/mathelda'>
+                  Mathelda Page Design
                 </Link>
 
                 {/* <TwitterLink /> */}
