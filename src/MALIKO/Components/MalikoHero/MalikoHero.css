@@ -45,6 +45,7 @@
     line-height: 28px;
     color: #FFFFFF;
     cursor: pointer;
+    border: none;
 }
 
 .malikoHero__bottomText{

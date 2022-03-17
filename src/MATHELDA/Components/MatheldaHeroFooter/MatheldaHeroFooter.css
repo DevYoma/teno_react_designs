@@ -1,0 +1,23 @@
+.matheldaHeroFooter{
+    display: flex;
+}
+
+.matheldaHeroFooter__left,
+.matheldaHeroFooter__right{
+    flex: 0.5;
+}
+
+.matheldaHeroFooter__left{
+    background: #68E1EC;
+    /* mix-blend-mode: darken; */
+    /* background-blend-mode: screen; */
+    background-blend-mode: darken;
+    min-height: 495px;
+    background-image: url('../../assets/woman.png');
+    background-repeat: no-repeat;
+    background-position: 90% 0;
+}
+
+.matheldaHeroFooter__left > img{
+    z-index: -1;
+}
