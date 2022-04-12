@@ -1,6 +1,5 @@
 import React from 'react';
 import './anitque.css'
-import Anav from '../components/Anav/Anav';
 import AnitqueNav from '../components/AnitqueNavbar/AnitqueNav'
 import AntiqueMain from '../components/AntiqueMain/AntiqueMain';
 import AntiqueSearchBar from '../components/AntiqueSearchBar/AntiqueSearchBar';
