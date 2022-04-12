@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 import AnitquePage from './ANITQUE/pages/AnitquePage';
@@ -8,25 +8,9 @@ import KamiliaPage from './KAMILIA/Pages/KamiliaPage'
 import MalikoPage from './MALIKO/pages/MalikoPage';
 import MikeyPage from './MICKEY/pages/MikeyPage'
 import MatheldaPage from './MATHELDA/Pages/MatheldaPage';
-import ScimbaPage from './SCRIMBA/Pages/ScrimbaPage'
-import ScrimbaPage from './SCRIMBA/Pages/ScrimbaPage';
 // import TwitterIcon from '@mui/icons-material/Twitter';
 
 function App() {
-  const [count, setCount] = useState(0)
-
-  const add = () => {
-    setCount(prevCount => prevCount + 1)
-    setCount(prevCount => prevCount + 1)
-  }
-
-  const subtract = () => {
-    setCount(count - 1)
-  }
-
-  const reset = () => {
-    setCount(0)
-  }
   return (
     <div className="app">
 
@@ -60,12 +44,7 @@ function App() {
               <Route path='/mathelda'>
                 <MatheldaPage />
               </Route>
-
-              <Route path="/scrimba">
-                <ScrimbaPage />
-              </Route>
             
-
               <Route path="/">
                 <h1>Welcome to this page</h1>
                 <Link to="/antique">Antique Page Design</Link>
@@ -85,19 +64,7 @@ function App() {
                 </Link> <br />
                 <Link to='/mathelda'>
                   Mathelda Page Design
-                </Link> <br />
-                <Link to='/scrimba'>
-                  Scrimba Animation Course
                 </Link>
-
-                <h1>{count}</h1>
-
-                <div>
-                  <button onClick={add}>Add</button>
-                  <button onClick={subtract}>Subtract</button>
-                  <button onClick={reset}>Reset</button>
-                </div>
-                
 
                 {/* <TwitterLink /> */}
               </Route>
