@@ -12,7 +12,6 @@ import AntiqueFooter from '../components/AntiqueFooter/AntiqueFooter';
 const AnitquePage = () => {
     return ( 
         <div className="anitque">
-            {/* <Anav /> */}
             <AnitqueNav />
             <AntiqueMain />
             <AntiqueSearchBar />
