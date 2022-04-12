@@ -8,6 +8,7 @@ import KamiliaPage from './KAMILIA/Pages/KamiliaPage'
 import MalikoPage from './MALIKO/pages/MalikoPage';
 import MikeyPage from './MICKEY/pages/MikeyPage'
 import MatheldaPage from './MATHELDA/Pages/MatheldaPage';
+import ScrimbaPage from './SCRIMBA/Pages/ScrimbaPage';
 // import TwitterIcon from '@mui/icons-material/Twitter';
 
 function App() {
